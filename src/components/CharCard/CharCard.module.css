@@ -1,0 +1,118 @@
+.container
+{
+    position: relative;
+    overflow: hidden;
+    box-shadow: inset 0px 0px 10px 0px #00000070;
+
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    
+    
+    aspect-ratio: 10.5/14;
+
+    padding: 7px 5% 7px 5%;
+    border-radius: 7px;
+}
+
+.container.five
+{
+    background: linear-gradient(to bottom, rgb(233, 154, 51) 22%,rgb(253, 215, 89) 70%);
+}
+
+.gradient
+{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 8rem;
+    background: linear-gradient(to bottom, rgb(0, 0, 0, 0) 22%,rgb(0, 0, 0, 0.4) 100%);
+    z-index: 1;
+}
+
+.splash_container
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    filter: drop-shadow(0px 0px 2px #00000070);
+    transition-duration: 0.2s;
+}
+
+.splash_container>picture>img
+{ 
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.container:hover .splash_container
+{
+    transform: scale(1.03);
+    transition-property: transform;
+}
+
+span 
+{
+    color: white;
+    font-size: 18px;
+    font-family: raleway;
+    font-weight: 700;
+    letter-spacing: 0.9px;
+    text-shadow: 0px 1px 3px #000000;
+
+    z-index: 2;
+    width: 80%;
+}
+
+@media(max-width: 540px)
+{
+    span
+    {
+        font-size: 13px;
+    }
+
+    .icons>img
+    {
+        max-height: 30%;
+    }
+}
+
+@media(max-width: 370px)
+{
+    span
+    {
+        font-size: 9.4px;
+    }
+}
+
+.icons 
+{
+    align-self: start;
+    z-index: 2;
+    width: 20%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    height: 100%;
+    justify-content: space-between;
+    gap: 0.3rem;
+}
+
+.icons>img
+{
+    filter: drop-shadow(0px 0px 2px #000000);
+    aspect-ratio: 1;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.icons_container
+{
+    aspect-ratio: 1/1;
+    width: 100%;
+    height: auto;
+}
