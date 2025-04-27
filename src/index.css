@@ -9,6 +9,15 @@ body
     background: #511d30FF;
 }
 
+h1
+{
+    font-family: Rubik Mono One;
+    font-weight: 300;
+    font-size: 3.2rem;
+    display: inline-block;
+    margin: 1.5rem 0;
+}
+
 a {
     text-decoration: none;
 }
@@ -25,25 +34,18 @@ button
     padding: 0;
 }
 
-.characters
-{
-    display: grid;
-    gap: 10px;
-    grid-template-columns: repeat(auto-fill, 10.5rem);
-    justify-content: space-between;
-}
-
 .main
 {
     margin-left: 17rem;
     padding: 0 5%;
 }
 
-@media (max-width: 920px)
+@media (max-width: 770px)
 {
     .main
     {
         margin-left: 0;
+        margin-top: 4rem;
     }
 }
 
@@ -60,5 +62,9 @@ button
     .characters
     {
         grid-template-columns: repeat(auto-fill, 31%);
+    }
+    h1
+    {
+        font-size: 2rem;
     }
 }

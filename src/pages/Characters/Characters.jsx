@@ -8,16 +8,16 @@ import { HashRouter as Router, Routes, Route } from "react-router-dom";
 
 function Characters() {
   const [isCollapsed, setCollapse] = useState(false);
-  const breakpoint = useMediaQuery(isCollapsed ? '(max-width: 920px)' : '(max-width: 1130px)');
+  const breakpoint = useMediaQuery(isCollapsed ? '(max-width: 770px)' : '(max-width: 770px)');
   
   return (
     <>
     <Sidebar isCollapsed={isCollapsed} setCollapse={setCollapse}/>
-    <div className={styles.main} style={{
+    <div class='main' style={{
       transition: '0.4s', 
       marginLeft: (isCollapsed && !breakpoint) && '5rem'
       }}>
-      <h1 style={{fontFamily: 'Rubik Mono One', fontWeight: '300', fontSize: '3.2rem'}}>Characters</h1>
+      <h1>Characters</h1>
       <div className={styles.characters}>
         <CharCard name='Acheron' codename='acheron' type='Lightning' path='Nihility' rarity='5' />
         <CharCard name='Castorice' codename='castorice' type='Quantum' path='Remembrance' rarity='5' />

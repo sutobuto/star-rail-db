@@ -8,7 +8,6 @@
     align-items: end;
     justify-content: space-between;
     
-    
     aspect-ratio: 10.5/14;
 
     padding: 7px 5% 7px 5%;
@@ -56,7 +55,7 @@
 span.name
 {
     color: white;
-    font-size: min(18px, 3vw);
+    font-size: min(1.125rem, 2vw);
     font-family: raleway;
     font-weight: 700;
     letter-spacing: 0.9px;
@@ -94,4 +93,12 @@ span.name
     aspect-ratio: 1/1;
     width: 100%;
     height: auto;
+}
+
+@media (max-width: 600px)
+{
+    span.name
+    {
+        font-size: min(1.125rem, 3vw);
+    }
 }

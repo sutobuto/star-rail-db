@@ -1,9 +1,15 @@
 import styles from "./SideItem.module.css";
 import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const SideItem = (props) => {
     return (
-        <button className={styles.container}>
+        <NavLink 
+            className={styles.container} 
+            style={({isActive, isPending}) => (
+                {background: (isActive || isPending) && '#513740FF'}
+            )}
+            to={props.route}>
             <div className={styles.icon}>
                 <img 
                     width='24'
@@ -11,7 +17,7 @@ const SideItem = (props) => {
                 ></img>
             </div>
             <span className={styles.name} style={{}}>{props.name}</span>
-        </button>
+        </NavLink>
     )
 }
 
