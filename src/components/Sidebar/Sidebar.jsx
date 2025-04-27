@@ -2,6 +2,7 @@ import styles from './Sidebar.module.css';
 import SideItem from './SideItem/SideItem';
 import { useState } from 'react';
 import { useMediaQuery } from '/src/hooks/useMediaQuery';
+import { Link } from 'react-router-dom';
 
 const Sidebar = (props) => {
     const setCollapse = props.setCollapse;
@@ -22,11 +23,21 @@ const Sidebar = (props) => {
                 </button>
             </div>
             <div className={styles.sideitems}>
-                <SideItem name='Home' icon='home.svg' isCollapsed={props.isCollapsed}/>
-                <SideItem name='Characters' icon='characters.svg' isCollapsed={props.isCollapsed}/>
-                <SideItem name='Light Cones' icon='lightcones.webp' isCollapsed={props.isCollapsed}/>
-                <SideItem name='Relics' icon='relics.webp' isCollapsed={props.isCollapsed}/>
-                <SideItem name='Bosses' icon='bosses.svg' isCollapsed={props.isCollapsed}/>
+                <Link to='/'>
+                    <SideItem name='Home' icon='home.svg' isCollapsed={props.isCollapsed}/>
+                </Link>
+                <Link to='/characters'>
+                    <SideItem name='Characters' icon='characters.svg' isCollapsed={props.isCollapsed}/>
+                </Link>
+                <Link to='/lightcones'>
+                    <SideItem name='Light Cones' icon='lightcones.webp' isCollapsed={props.isCollapsed}/>
+                </Link>
+                <Link to='/relics'>
+                    <SideItem name='Relics' icon='relics.webp' isCollapsed={props.isCollapsed}/>
+                </Link>
+                <Link to='/bosses'>
+                    <SideItem name='Bosses' icon='bosses.svg' isCollapsed={props.isCollapsed}/>
+                </Link>
             </div>
         </div>
     )

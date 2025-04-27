@@ -1,4 +1,5 @@
 import styles from './CharCard.module.css';
+import { Link } from 'react-router-dom';
 
 const CharCard = (props) => {
     let star;
@@ -12,7 +13,7 @@ const CharCard = (props) => {
 
     return(
     <>
-    <a href={`characters/${props.codename}`}>
+    <Link to={`/characters/${props.codename}`}>
         <div className={`${styles.container} ${star}`}>
             <span className={styles.name}>{props.name}</span>
             <div className={styles.icons}>
@@ -28,7 +29,7 @@ const CharCard = (props) => {
                 </picture>
             </div>
         </div>
-    </a>
+    </Link>
     </>
     )
 }
