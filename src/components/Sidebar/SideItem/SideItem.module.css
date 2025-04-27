@@ -25,9 +25,11 @@
 
 .container>.icon
 {
-    
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     min-width: 3.9rem;
+    height: 100%;
 }
 
 .container:hover
