@@ -3,12 +3,13 @@ import Sidebar from "/src/components/Sidebar/Sidebar";
 import { useState } from "react";
 import { useMediaQuery } from '/src/hooks/useMediaQuery';
 import styles from './Characters.module.css';
+import data from '/src/jsons/chardata.json';
 
 import { HashRouter as Router, Routes, Route } from "react-router-dom";
 
 function Characters() {
-  const [isCollapsed, setCollapse] = useState(false);
-  const breakpoint = useMediaQuery(isCollapsed ? '(max-width: 770px)' : '(max-width: 770px)');
+  const [isCollapsed, setCollapse] = useState(true);
+  const breakpoint = useMediaQuery(isCollapsed ? '(max-width: 820px)' : '(max-width: 770px)');
   
   return (
     <>
@@ -19,14 +20,7 @@ function Characters() {
       }}>
       <h1>Characters</h1>
       <div className={styles.characters}>
-        <CharCard name='Acheron' codename='acheron' type='Lightning' path='Nihility' rarity='5' />
-        <CharCard name='Castorice' codename='castorice' type='Quantum' path='Remembrance' rarity='5' />
-        <CharCard name='Firefly' codename='firefly' type='Fire' path='Destruction' rarity='5' />
-        <CharCard name='Dan Heng • Imbibitor Lunae' codename='imbibitor-lunae' type='Imaginary' path='Destruction' rarity='5' />
-        <CharCard name='Seele' codename='seele' type='Quantum' path='The Hunt' rarity='5' />
-        <CharCard name='Aventurine' codename='aventurine' type='Imaginary' path='Preservation' rarity='5' />
-        <CharCard name='The Herta' codename='the-herta' type='Ice' path='Erudition' rarity='5' />
-        <CharCard name='Robin' codename='robin' type='Physical' path='Harmony' rarity='5' />
+        {data.map((char) => <CharCard name={char.Name} codename={char.Codename} type={char.Element} path={char.Path} rarity={char.Rarity} />)}
       </div>
     </div>
     </>

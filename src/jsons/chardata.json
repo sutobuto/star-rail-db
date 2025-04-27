@@ -1,0 +1,588 @@
+[
+  {
+    "Name": "Acheron",
+    "Codename": "acheron",
+    "Rarity": "5",
+    "Path": "Nihility",
+    "Element": "Lightning",
+    "MinHP": "153",
+    "MaxHP": "1125",
+    "MinATK": "95",
+    "MaxATK": "698",
+    "MinDEF": "59",
+    "MaxDEF": "436",
+    "SPD": "101",
+    "Energy": "N/A",
+    "New": "FALSE",
+    "Beta": "FALSE"
+  },
+  {
+    "Name": "Aglaea",
+    "Codename": "aglaea",
+    "Rarity": "5",
+    "Path": "Remembrance",
+    "Element": "Lightning",
+    "MinHP": "168",
+    "MaxHP": "1241",
+    "MinATK": "95",
+    "MaxATK": "698",
+    "MinDEF": "66",
+    "MaxDEF": "485",
+    "SPD": "102",
+    "New": "FALSE",
+    "Beta": "FALSE"
+  },
+  {
+    "Name": "Anaxa",
+    "Codename": "anaxa",
+    "Rarity": "5",
+    "Path": "Erudition",
+    "Element": "Wind",
+    "New": "TRUE",
+    "Beta": "FALSE"
+  },
+  {
+    "Name": "Argenti",
+    "Codename": "argenti",
+    "Rarity": "5",
+    "Path": "Erudition",
+    "Element": "Physical",
+    "New": "FALSE",
+    "Beta": "FALSE"
+  },
+  {
+    "Name": "Arlan",
+    "Codename": "arlan",
+    "Rarity": "4",
+    "Path": "Destruction",
+    "Element": "Lightning",
+    "New": "FALSE",
+    "Beta": "FALSE"
+  },
+  {
+    "Name": "Asta",
+    "Codename": "asta",
+    "Rarity": "4",
+    "Path": "Harmony",
+    "Element": "Fire",
+    "New": "FALSE",
+    "Beta": "FALSE"
+  },
+  {
+    "Name": "Aventurine",
+    "Codename": "aventurine",
+    "Rarity": "5",
+    "Path": "Preservation",
+    "Element": "Imaginary",
+    "New": "FALSE",
+    "Beta": "FALSE"
+  },
+  {
+    "Name": "Bailu",
+    "Codename": "bailu",
+    "Rarity": "5",
+    "Path": "Abundance",
+    "Element": "Lightning",
+    "New": "FALSE",
+    "Beta": "FALSE"
+  },
+  {
+    "Name": "Black Swan",
+    "Codename": "black-swan",
+    "Rarity": "5",
+    "Path": "Nihility",
+    "Element": "Wind",
+    "New": "FALSE",
+    "Beta": "FALSE"
+  },
+  {
+    "Name": "Blade",
+    "Codename": "blade",
+    "Rarity": "5",
+    "Path": "Destruction",
+    "Element": "Wind",
+    "New": "FALSE",
+    "Beta": "FALSE"
+  },
+  {
+    "Name": "Boothill",
+    "Codename": "boothill",
+    "Rarity": "5",
+    "Path": "The Hunt",
+    "Element": "Physical",
+    "New": "FALSE",
+    "Beta": "FALSE"
+  },
+  {
+    "Name": "Bronya",
+    "Codename": "bronya",
+    "Rarity": "5",
+    "Path": "Harmony",
+    "Element": "Wind",
+    "New": "FALSE",
+    "Beta": "FALSE"
+  },
+  {
+    "Name": "Castorice",
+    "Codename": "castorice",
+    "Rarity": "5",
+    "Path": "Remembrance",
+    "Element": "Quantum",
+    "Energy": "N/A",
+    "New": "TRUE",
+    "Beta": "FALSE"
+  },
+  {
+    "Name": "Clara",
+    "Codename": "clara",
+    "Rarity": "5",
+    "Path": "Destruction",
+    "Element": "Physical",
+    "New": "FALSE",
+    "Beta": "FALSE"
+  },
+  {
+    "Name": "Cipher",
+    "Codename": "cipher",
+    "Rarity": "5",
+    "Path": "Nihility",
+    "Element": "Quantum",
+    "New": "FALSE",
+    "Beta": "TRUE"
+  },
+  {
+    "Name": "Dan Heng",
+    "Codename": "danheng",
+    "Rarity": "4",
+    "Path": "The Hunt",
+    "Element": "Wind",
+    "New": "FALSE",
+    "Beta": "FALSE"
+  },
+  {
+    "Name": "Dan Heng • Imbibitor Lunae",
+    "Codename": "imbibitor-lunae",
+    "Rarity": "5",
+    "Path": "Destruction",
+    "Element": "Imaginary",
+    "New": "FALSE",
+    "Beta": "FALSE"
+  },
+  {
+    "Name": "Dr. Ratio",
+    "Codename": "dr-ratio",
+    "Rarity": "5",
+    "Path": "The Hunt",
+    "Element": "Imaginary",
+    "New": "FALSE",
+    "Beta": "FALSE"
+  },
+  {
+    "Name": "Feixiao",
+    "Codename": "feixiao",
+    "Rarity": "5",
+    "Path": "The Hunt",
+    "Element": "Wind",
+    "Energy": "N/A",
+    "New": "FALSE",
+    "Beta": "FALSE"
+  },
+  {
+    "Name": "Firefly",
+    "Codename": "firefly",
+    "Rarity": "5",
+    "Path": "Destruction",
+    "Element": "Fire",
+    "New": "FALSE",
+    "Beta": "FALSE"
+  },
+  {
+    "Name": "Fu Xuan",
+    "Codename": "fuxuan",
+    "Rarity": "5",
+    "Path": "Preservation",
+    "Element": "Quantum",
+    "New": "FALSE",
+    "Beta": "FALSE"
+  },
+  {
+    "Name": "Gallagher",
+    "Codename": "gallagher",
+    "Rarity": "4",
+    "Path": "Abundance",
+    "Element": "Fire",
+    "New": "FALSE",
+    "Beta": "FALSE"
+  },
+  {
+    "Name": "Gepard",
+    "Codename": "gepard",
+    "Rarity": "5",
+    "Path": "Preservation",
+    "Element": "Ice",
+    "New": "FALSE",
+    "Beta": "FALSE"
+  },
+  {
+    "Name": "Guinaifen",
+    "Codename": "guinaifen",
+    "Rarity": "4",
+    "Path": "Nihility",
+    "Element": "Fire",
+    "New": "FALSE",
+    "Beta": "FALSE"
+  },
+  {
+    "Name": "Hanya",
+    "Codename": "hanya",
+    "Rarity": "4",
+    "Path": "Harmony",
+    "Element": "Physical",
+    "New": "FALSE",
+    "Beta": "FALSE"
+  },
+  {
+    "Name": "Herta",
+    "Codename": "herta",
+    "Rarity": "4",
+    "Path": "Erudition",
+    "Element": "Ice",
+    "New": "FALSE",
+    "Beta": "FALSE"
+  },
+  {
+    "Name": "Himeko",
+    "Codename": "himeko",
+    "Rarity": "5",
+    "Path": "Erudition",
+    "Element": "Fire",
+    "New": "FALSE",
+    "Beta": "FALSE"
+  },
+  {
+    "Name": "Hook",
+    "Codename": "hook",
+    "Rarity": "4",
+    "Path": "Destruction",
+    "Element": "Fire",
+    "New": "FALSE",
+    "Beta": "FALSE"
+  },
+  {
+    "Name": "Huohuo",
+    "Codename": "huohuo",
+    "Rarity": "5",
+    "Path": "Abundance",
+    "Element": "Wind",
+    "New": "FALSE",
+    "Beta": "FALSE"
+  },
+  {
+    "Name": "Hyacine",
+    "Codename": "hyacine",
+    "Rarity": "5",
+    "Path": "Remembrance",
+    "Element": "Wind",
+    "New": "FALSE",
+    "Beta": "TRUE"
+  },
+  {
+    "Name": "Jade",
+    "Codename": "jade",
+    "Rarity": "5",
+    "Path": "Erudition",
+    "Element": "Quantum",
+    "New": "FALSE",
+    "Beta": "FALSE"
+  },
+  {
+    "Name": "Jiaoqiu",
+    "Codename": "jiaoqiu",
+    "Rarity": "5",
+    "Path": "Nihility",
+    "Element": "Fire",
+    "New": "FALSE",
+    "Beta": "FALSE"
+  },
+  {
+    "Name": "Jingyuan",
+    "Codename": "jingyuan",
+    "Rarity": "5",
+    "Path": "Erudition",
+    "Element": "Lightning",
+    "New": "FALSE",
+    "Beta": "FALSE"
+  },
+  {
+    "Name": "Jingliu",
+    "Codename": "jingliu",
+    "Rarity": "5",
+    "Path": "Destruction",
+    "Element": "Ice",
+    "New": "FALSE",
+    "Beta": "FALSE"
+  },
+  {
+    "Name": "Kafka",
+    "Codename": "kafka",
+    "Rarity": "5",
+    "Path": "Nihility",
+    "Element": "Lightning",
+    "New": "FALSE",
+    "Beta": "FALSE"
+  },
+  {
+    "Name": "Lingsha",
+    "Codename": "lingsha",
+    "Rarity": "5",
+    "Path": "Abundance",
+    "Element": "Fire",
+    "New": "FALSE",
+    "Beta": "FALSE"
+  },
+  {
+    "Name": "Luka",
+    "Codename": "luka",
+    "Rarity": "4",
+    "Path": "Nihility",
+    "Element": "Physical"
+  },
+  {
+    "Name": "Luocha",
+    "Codename": "luocha",
+    "Rarity": "5",
+    "Path": "Abundance",
+    "Element": "Imaginary"
+  },
+  {
+    "Name": "Lynx",
+    "Codename": "lynx",
+    "Rarity": "4",
+    "Path": "Abundance",
+    "Element": "Quantum"
+  },
+  {
+    "Name": "March 7th",
+    "Codename": "march",
+    "Rarity": "4",
+    "Path": "Preservation",
+    "Element": "Ice"
+  },
+  {
+    "Name": "March 7th • The Hunt",
+    "Codename": "march-hunt",
+    "Rarity": "4",
+    "Path": "The Hunt",
+    "Element": "Imaginary"
+  },
+  {
+    "Name": "Misha",
+    "Codename": "misha",
+    "Rarity": "4",
+    "Path": "Destruction",
+    "Element": "Ice"
+  },
+  {
+    "Name": "Moze",
+    "Codename": "moze",
+    "Rarity": "4",
+    "Path": "The Hunt",
+    "Element": "Lightning"
+  },
+  {
+    "Name": "Mydei",
+    "Codename": "mydei",
+    "Rarity": "5",
+    "Path": "Destruction",
+    "Element": "Imaginary"
+  },
+  {
+    "Name": "Natasha",
+    "Codename": "natasha",
+    "Rarity": "4",
+    "Path": "Abundance",
+    "Element": "Physical"
+  },
+  {
+    "Name": "Pela",
+    "Codename": "pela",
+    "Rarity": "4",
+    "Path": "Nihility",
+    "Element": "Ice"
+  },
+  {
+    "Name": "Qinque",
+    "Codename": "qinque",
+    "Rarity": "4",
+    "Path": "Erudition",
+    "Element": "Quantum"
+  },
+  {
+    "Name": "Rappa",
+    "Codename": "rappa",
+    "Rarity": "5",
+    "Path": "Erudition",
+    "Element": "Imaginary"
+  },
+  {
+    "Name": "Robin",
+    "Codename": "robin",
+    "Rarity": "5",
+    "Path": "Harmony",
+    "Element": "Physical"
+  },
+  {
+    "Name": "Ruan Mei",
+    "Codename": "ruan-mei",
+    "Rarity": "5",
+    "Path": "Harmony",
+    "Element": "Ice"
+  },
+  {
+    "Name": "Sampo",
+    "Codename": "sampo",
+    "Rarity": "4",
+    "Path": "Nihility",
+    "Element": "Wind"
+  },
+  {
+    "Name": "Seele",
+    "Codename": "seele",
+    "Rarity": "5",
+    "Path": "The Hunt",
+    "Element": "Quantum"
+  },
+  {
+    "Name": "Serval",
+    "Codename": "serval",
+    "Rarity": "4",
+    "Path": "Erudition",
+    "Element": "Lightning"
+  },
+  {
+    "Name": "Silver Wolf",
+    "Codename": "silverwolf",
+    "Rarity": "5",
+    "Path": "Nihility",
+    "Element": "Quantum"
+  },
+  {
+    "Name": "Sparkle",
+    "Codename": "sparkle",
+    "Rarity": "5",
+    "Path": "Harmony",
+    "Element": "Quantum"
+  },
+  {
+    "Name": "Sunday",
+    "Codename": "sunday",
+    "Rarity": "5",
+    "Path": "Harmony",
+    "Element": "Imaginary"
+  },
+  {
+    "Name": "Sushang",
+    "Codename": "sushang",
+    "Rarity": "4",
+    "Path": "The Hunt",
+    "Element": "Physical"
+  },
+  {
+    "Name": "The Herta",
+    "Codename": "the-herta",
+    "Rarity": "5",
+    "Path": "Erudition",
+    "Element": "Ice"
+  },
+  {
+    "Name": "Tingyun",
+    "Codename": "tingyun",
+    "Rarity": "4",
+    "Path": "Harmony",
+    "Element": "Lightning"
+  },
+  {
+    "Name": "Tingyun • Fugue",
+    "Codename": "fugue",
+    "Rarity": "5",
+    "Path": "Nihility",
+    "Element": "Fire"
+  },
+  {
+    "Name": "Topaz & Numby",
+    "Codename": "topaz",
+    "Rarity": "5",
+    "Path": "The Hunt",
+    "Element": "Fire"
+  },
+  {
+    "Name": "Trailblazer • Destruction",
+    "Codename": "mc-destruction",
+    "Rarity": "5",
+    "Path": "Destruction",
+    "Element": "Physical"
+  },
+  {
+    "Name": "Trailblazer • Harmony",
+    "Codename": "mc-harmony",
+    "Rarity": "5",
+    "Path": "Harmony",
+    "Element": "Imaginary"
+  },
+  {
+    "Name": "Trailblazer • Preservation",
+    "Codename": "mc-preservation",
+    "Rarity": "5",
+    "Path": "Preservation",
+    "Element": "Fire"
+  },
+  {
+    "Name": "Trailblazer • Remembrance",
+    "Codename": "mc-remembrance",
+    "Rarity": "5",
+    "Path": "Remembrance",
+    "Element": "Ice"
+  },
+  {
+    "Name": "Tribbie",
+    "Codename": "tribbie",
+    "Rarity": "5",
+    "Path": "Harmony",
+    "Element": "Quantum"
+  },
+  {
+    "Name": "Welt",
+    "Codename": "welt",
+    "Rarity": "5",
+    "Path": "Nihility",
+    "Element": "Imaginary"
+  },
+  {
+    "Name": "Xueyi",
+    "Codename": "xueyi",
+    "Rarity": "4",
+    "Path": "Destruction",
+    "Element": "Quantum"
+  },
+  {
+    "Name": "Yanqing",
+    "Codename": "yanqing",
+    "Rarity": "5",
+    "Path": "The Hunt",
+    "Element": "Ice"
+  },
+  {
+    "Name": "Yukong",
+    "Codename": "yukong",
+    "Rarity": "4",
+    "Path": "Harmony",
+    "Element": "Imaginary"
+  },
+  {
+    "Name": "Yunli",
+    "Codename": "yunli",
+    "Rarity": "5",
+    "Path": "Destruction",
+    "Element": "Physical"
+  }
+]

@@ -5,7 +5,7 @@ import { useMediaQuery } from '/src/hooks/useMediaQuery';
 
 const Sidebar = (props) => {
     const setCollapse = props.setCollapse;
-    const breakpoint = useMediaQuery('(max-width: 770px)');
+    const breakpoint = useMediaQuery('(max-width: 820px)');
     useEffect(() => {
         if(breakpoint)
         {
