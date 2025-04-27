@@ -14,12 +14,11 @@ const CharCard = (props) => {
     <>
     <a href={`characters/${props.codename}`}>
         <div className={`${styles.container} ${star}`}>
-            <span>{props.name}</span>
+            <span className={styles.name}>{props.name}</span>
             <div className={styles.icons}>
                 <img style={{aspectRatio: '1/1'}}height='34' width='34' src={`/src/assets/imgs/icons/types/${props.type}.webp`}></img>
-            
+    
                 <img height='28' width='28' src={`/src/assets/imgs/icons/paths/${props.path.replace(/\s/g, "")}-small.webp`}></img>
-
             </div>
             <div className={styles.gradient}>
             </div>
