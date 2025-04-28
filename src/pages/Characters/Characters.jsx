@@ -7,7 +7,7 @@ import data from '/src/jsons/chardata.json';
 
 function Characters(props) {
   const setCollapse = props.setCollapse
-  const breakpoint = useMediaQuery(props.isCollapsed ? '(max-width: 820px)' : '(max-width: 770px)');
+  const breakpoint = useMediaQuery('(max-width: 820px)');
   
   return (
     <>
@@ -18,7 +18,7 @@ function Characters(props) {
       }}>
       <h1>Characters</h1>
       <div className={styles.characters}>
-        {data.sort((a, b) => a.Name > b.Name ? 1 : -1).map((char) => <CharCard name={char.Name} codename={char.Codename} type={char.Element} path={char.Path} rarity={char.Rarity} />)}
+        {data.sort((a, b) => a.Name > b.Name ? 1 : -1).map((char) => <CharCard name={char.Name} codename={char.Codename} type={char.Element} path={char.Path} rarity={char.Rarity} new={char.New} beta={char.Beta}/>)}
       </div>
     </div>
     </>

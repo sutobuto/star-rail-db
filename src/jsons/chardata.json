@@ -13,8 +13,8 @@
     "MaxDEF": "436",
     "SPD": "101",
     "Energy": "N/A",
-    "New": "FALSE",
-    "Beta": "FALSE"
+    "New": false,
+    "Beta": false
   },
   {
     "Name": "Aglaea",
@@ -29,8 +29,8 @@
     "MinDEF": "66",
     "MaxDEF": "485",
     "SPD": "102",
-    "New": "FALSE",
-    "Beta": "FALSE"
+    "New": false,
+    "Beta": false
   },
   {
     "Name": "Anaxa",
@@ -38,8 +38,8 @@
     "Rarity": "5",
     "Path": "Erudition",
     "Element": "Wind",
-    "New": "TRUE",
-    "Beta": "FALSE"
+    "New": true,
+    "Beta": false
   },
   {
     "Name": "Argenti",
@@ -47,8 +47,8 @@
     "Rarity": "5",
     "Path": "Erudition",
     "Element": "Physical",
-    "New": "FALSE",
-    "Beta": "FALSE"
+    "New": false,
+    "Beta": false
   },
   {
     "Name": "Arlan",
@@ -56,8 +56,8 @@
     "Rarity": "4",
     "Path": "Destruction",
     "Element": "Lightning",
-    "New": "FALSE",
-    "Beta": "FALSE"
+    "New": false,
+    "Beta": false
   },
   {
     "Name": "Asta",
@@ -65,8 +65,8 @@
     "Rarity": "4",
     "Path": "Harmony",
     "Element": "Fire",
-    "New": "FALSE",
-    "Beta": "FALSE"
+    "New": false,
+    "Beta": false
   },
   {
     "Name": "Aventurine",
@@ -74,8 +74,8 @@
     "Rarity": "5",
     "Path": "Preservation",
     "Element": "Imaginary",
-    "New": "FALSE",
-    "Beta": "FALSE"
+    "New": false,
+    "Beta": false
   },
   {
     "Name": "Bailu",
@@ -83,8 +83,8 @@
     "Rarity": "5",
     "Path": "Abundance",
     "Element": "Lightning",
-    "New": "FALSE",
-    "Beta": "FALSE"
+    "New": false,
+    "Beta": false
   },
   {
     "Name": "Black Swan",
@@ -92,8 +92,8 @@
     "Rarity": "5",
     "Path": "Nihility",
     "Element": "Wind",
-    "New": "FALSE",
-    "Beta": "FALSE"
+    "New": false,
+    "Beta": false
   },
   {
     "Name": "Blade",
@@ -101,8 +101,8 @@
     "Rarity": "5",
     "Path": "Destruction",
     "Element": "Wind",
-    "New": "FALSE",
-    "Beta": "FALSE"
+    "New": false,
+    "Beta": false
   },
   {
     "Name": "Boothill",
@@ -110,8 +110,8 @@
     "Rarity": "5",
     "Path": "The Hunt",
     "Element": "Physical",
-    "New": "FALSE",
-    "Beta": "FALSE"
+    "New": false,
+    "Beta": false
   },
   {
     "Name": "Bronya",
@@ -119,8 +119,8 @@
     "Rarity": "5",
     "Path": "Harmony",
     "Element": "Wind",
-    "New": "FALSE",
-    "Beta": "FALSE"
+    "New": false,
+    "Beta": false
   },
   {
     "Name": "Castorice",
@@ -129,8 +129,8 @@
     "Path": "Remembrance",
     "Element": "Quantum",
     "Energy": "N/A",
-    "New": "TRUE",
-    "Beta": "FALSE"
+    "New": true,
+    "Beta": false
   },
   {
     "Name": "Clara",
@@ -138,8 +138,8 @@
     "Rarity": "5",
     "Path": "Destruction",
     "Element": "Physical",
-    "New": "FALSE",
-    "Beta": "FALSE"
+    "New": false,
+    "Beta": false
   },
   {
     "Name": "Cipher",
@@ -147,8 +147,8 @@
     "Rarity": "5",
     "Path": "Nihility",
     "Element": "Quantum",
-    "New": "FALSE",
-    "Beta": "TRUE"
+    "New": false,
+    "Beta": true
   },
   {
     "Name": "Dan Heng",
@@ -156,8 +156,8 @@
     "Rarity": "4",
     "Path": "The Hunt",
     "Element": "Wind",
-    "New": "FALSE",
-    "Beta": "FALSE"
+    "New": false,
+    "Beta": false
   },
   {
     "Name": "Dan Heng • Imbibitor Lunae",
@@ -165,8 +165,8 @@
     "Rarity": "5",
     "Path": "Destruction",
     "Element": "Imaginary",
-    "New": "FALSE",
-    "Beta": "FALSE"
+    "New": false,
+    "Beta": false
   },
   {
     "Name": "Dr. Ratio",
@@ -174,8 +174,8 @@
     "Rarity": "5",
     "Path": "The Hunt",
     "Element": "Imaginary",
-    "New": "FALSE",
-    "Beta": "FALSE"
+    "New": false,
+    "Beta": false
   },
   {
     "Name": "Feixiao",
@@ -184,8 +184,8 @@
     "Path": "The Hunt",
     "Element": "Wind",
     "Energy": "N/A",
-    "New": "FALSE",
-    "Beta": "FALSE"
+    "New": false,
+    "Beta": false
   },
   {
     "Name": "Firefly",
@@ -193,8 +193,8 @@
     "Rarity": "5",
     "Path": "Destruction",
     "Element": "Fire",
-    "New": "FALSE",
-    "Beta": "FALSE"
+    "New": false,
+    "Beta": false
   },
   {
     "Name": "Fu Xuan",
@@ -202,8 +202,8 @@
     "Rarity": "5",
     "Path": "Preservation",
     "Element": "Quantum",
-    "New": "FALSE",
-    "Beta": "FALSE"
+    "New": false,
+    "Beta": false
   },
   {
     "Name": "Gallagher",
@@ -211,8 +211,8 @@
     "Rarity": "4",
     "Path": "Abundance",
     "Element": "Fire",
-    "New": "FALSE",
-    "Beta": "FALSE"
+    "New": false,
+    "Beta": false
   },
   {
     "Name": "Gepard",
@@ -220,8 +220,8 @@
     "Rarity": "5",
     "Path": "Preservation",
     "Element": "Ice",
-    "New": "FALSE",
-    "Beta": "FALSE"
+    "New": false,
+    "Beta": false
   },
   {
     "Name": "Guinaifen",
@@ -229,8 +229,8 @@
     "Rarity": "4",
     "Path": "Nihility",
     "Element": "Fire",
-    "New": "FALSE",
-    "Beta": "FALSE"
+    "New": false,
+    "Beta": false
   },
   {
     "Name": "Hanya",
@@ -238,8 +238,8 @@
     "Rarity": "4",
     "Path": "Harmony",
     "Element": "Physical",
-    "New": "FALSE",
-    "Beta": "FALSE"
+    "New": false,
+    "Beta": false
   },
   {
     "Name": "Herta",
@@ -247,8 +247,8 @@
     "Rarity": "4",
     "Path": "Erudition",
     "Element": "Ice",
-    "New": "FALSE",
-    "Beta": "FALSE"
+    "New": false,
+    "Beta": false
   },
   {
     "Name": "Himeko",
@@ -256,8 +256,8 @@
     "Rarity": "5",
     "Path": "Erudition",
     "Element": "Fire",
-    "New": "FALSE",
-    "Beta": "FALSE"
+    "New": false,
+    "Beta": false
   },
   {
     "Name": "Hook",
@@ -265,8 +265,8 @@
     "Rarity": "4",
     "Path": "Destruction",
     "Element": "Fire",
-    "New": "FALSE",
-    "Beta": "FALSE"
+    "New": false,
+    "Beta": false
   },
   {
     "Name": "Huohuo",
@@ -274,8 +274,8 @@
     "Rarity": "5",
     "Path": "Abundance",
     "Element": "Wind",
-    "New": "FALSE",
-    "Beta": "FALSE"
+    "New": false,
+    "Beta": false
   },
   {
     "Name": "Hyacine",
@@ -283,8 +283,8 @@
     "Rarity": "5",
     "Path": "Remembrance",
     "Element": "Wind",
-    "New": "FALSE",
-    "Beta": "TRUE"
+    "New": false,
+    "Beta": true
   },
   {
     "Name": "Jade",
@@ -292,8 +292,8 @@
     "Rarity": "5",
     "Path": "Erudition",
     "Element": "Quantum",
-    "New": "FALSE",
-    "Beta": "FALSE"
+    "New": false,
+    "Beta": false
   },
   {
     "Name": "Jiaoqiu",
@@ -301,8 +301,8 @@
     "Rarity": "5",
     "Path": "Nihility",
     "Element": "Fire",
-    "New": "FALSE",
-    "Beta": "FALSE"
+    "New": false,
+    "Beta": false
   },
   {
     "Name": "Jingyuan",
@@ -310,8 +310,8 @@
     "Rarity": "5",
     "Path": "Erudition",
     "Element": "Lightning",
-    "New": "FALSE",
-    "Beta": "FALSE"
+    "New": false,
+    "Beta": false
   },
   {
     "Name": "Jingliu",
@@ -319,8 +319,8 @@
     "Rarity": "5",
     "Path": "Destruction",
     "Element": "Ice",
-    "New": "FALSE",
-    "Beta": "FALSE"
+    "New": false,
+    "Beta": false
   },
   {
     "Name": "Kafka",
@@ -328,8 +328,8 @@
     "Rarity": "5",
     "Path": "Nihility",
     "Element": "Lightning",
-    "New": "FALSE",
-    "Beta": "FALSE"
+    "New": false,
+    "Beta": false
   },
   {
     "Name": "Lingsha",
@@ -337,252 +337,322 @@
     "Rarity": "5",
     "Path": "Abundance",
     "Element": "Fire",
-    "New": "FALSE",
-    "Beta": "FALSE"
+    "New": false,
+    "Beta": false
   },
   {
     "Name": "Luka",
     "Codename": "luka",
     "Rarity": "4",
     "Path": "Nihility",
-    "Element": "Physical"
+    "Element": "Physical",
+    "New": false,
+    "Beta": false
   },
   {
     "Name": "Luocha",
     "Codename": "luocha",
     "Rarity": "5",
     "Path": "Abundance",
-    "Element": "Imaginary"
+    "Element": "Imaginary",
+    "New": false,
+    "Beta": false
   },
   {
     "Name": "Lynx",
     "Codename": "lynx",
     "Rarity": "4",
     "Path": "Abundance",
-    "Element": "Quantum"
+    "Element": "Quantum",
+    "New": false,
+    "Beta": false
   },
   {
     "Name": "March 7th",
     "Codename": "march",
     "Rarity": "4",
     "Path": "Preservation",
-    "Element": "Ice"
+    "Element": "Ice",
+    "New": false,
+    "Beta": false
   },
   {
     "Name": "March 7th • The Hunt",
     "Codename": "march-hunt",
     "Rarity": "4",
     "Path": "The Hunt",
-    "Element": "Imaginary"
+    "Element": "Imaginary",
+    "New": false,
+    "Beta": false
   },
   {
     "Name": "Misha",
     "Codename": "misha",
     "Rarity": "4",
     "Path": "Destruction",
-    "Element": "Ice"
+    "Element": "Ice",
+    "New": false,
+    "Beta": false
   },
   {
     "Name": "Moze",
     "Codename": "moze",
     "Rarity": "4",
     "Path": "The Hunt",
-    "Element": "Lightning"
+    "Element": "Lightning",
+    "New": false,
+    "Beta": false
   },
   {
     "Name": "Mydei",
     "Codename": "mydei",
     "Rarity": "5",
     "Path": "Destruction",
-    "Element": "Imaginary"
+    "Element": "Imaginary",
+    "New": false,
+    "Beta": false
   },
   {
     "Name": "Natasha",
     "Codename": "natasha",
     "Rarity": "4",
     "Path": "Abundance",
-    "Element": "Physical"
+    "Element": "Physical",
+    "New": false,
+    "Beta": false
   },
   {
     "Name": "Pela",
     "Codename": "pela",
     "Rarity": "4",
     "Path": "Nihility",
-    "Element": "Ice"
+    "Element": "Ice",
+    "New": false,
+    "Beta": false
   },
   {
     "Name": "Qinque",
     "Codename": "qinque",
     "Rarity": "4",
     "Path": "Erudition",
-    "Element": "Quantum"
+    "Element": "Quantum",
+    "New": false,
+    "Beta": false
   },
   {
     "Name": "Rappa",
     "Codename": "rappa",
     "Rarity": "5",
     "Path": "Erudition",
-    "Element": "Imaginary"
+    "Element": "Imaginary",
+    "New": false,
+    "Beta": false
   },
   {
     "Name": "Robin",
     "Codename": "robin",
     "Rarity": "5",
     "Path": "Harmony",
-    "Element": "Physical"
+    "Element": "Physical",
+    "New": false,
+    "Beta": false
   },
   {
     "Name": "Ruan Mei",
     "Codename": "ruan-mei",
     "Rarity": "5",
     "Path": "Harmony",
-    "Element": "Ice"
+    "Element": "Ice",
+    "New": false,
+    "Beta": false
   },
   {
     "Name": "Sampo",
     "Codename": "sampo",
     "Rarity": "4",
     "Path": "Nihility",
-    "Element": "Wind"
+    "Element": "Wind",
+    "New": false,
+    "Beta": false
   },
   {
     "Name": "Seele",
     "Codename": "seele",
     "Rarity": "5",
     "Path": "The Hunt",
-    "Element": "Quantum"
+    "Element": "Quantum",
+    "New": false,
+    "Beta": false
   },
   {
     "Name": "Serval",
     "Codename": "serval",
     "Rarity": "4",
     "Path": "Erudition",
-    "Element": "Lightning"
+    "Element": "Lightning",
+    "New": false,
+    "Beta": false
   },
   {
     "Name": "Silver Wolf",
     "Codename": "silverwolf",
     "Rarity": "5",
     "Path": "Nihility",
-    "Element": "Quantum"
+    "Element": "Quantum",
+    "New": false,
+    "Beta": false
   },
   {
     "Name": "Sparkle",
     "Codename": "sparkle",
     "Rarity": "5",
     "Path": "Harmony",
-    "Element": "Quantum"
+    "Element": "Quantum",
+    "New": false,
+    "Beta": false
   },
   {
     "Name": "Sunday",
     "Codename": "sunday",
     "Rarity": "5",
     "Path": "Harmony",
-    "Element": "Imaginary"
+    "Element": "Imaginary",
+    "New": false,
+    "Beta": false
   },
   {
     "Name": "Sushang",
     "Codename": "sushang",
     "Rarity": "4",
     "Path": "The Hunt",
-    "Element": "Physical"
+    "Element": "Physical",
+    "New": false,
+    "Beta": false
   },
   {
     "Name": "The Herta",
     "Codename": "the-herta",
     "Rarity": "5",
     "Path": "Erudition",
-    "Element": "Ice"
+    "Element": "Ice",
+    "New": false,
+    "Beta": false
   },
   {
     "Name": "Tingyun",
     "Codename": "tingyun",
     "Rarity": "4",
     "Path": "Harmony",
-    "Element": "Lightning"
+    "Element": "Lightning",
+    "New": false,
+    "Beta": false
   },
   {
     "Name": "Tingyun • Fugue",
     "Codename": "fugue",
     "Rarity": "5",
     "Path": "Nihility",
-    "Element": "Fire"
+    "Element": "Fire",
+    "New": false,
+    "Beta": false
   },
   {
     "Name": "Topaz & Numby",
     "Codename": "topaz",
     "Rarity": "5",
     "Path": "The Hunt",
-    "Element": "Fire"
+    "Element": "Fire",
+    "New": false,
+    "Beta": false
   },
   {
     "Name": "Trailblazer • Destruction",
     "Codename": "mc-destruction",
     "Rarity": "5",
     "Path": "Destruction",
-    "Element": "Physical"
+    "Element": "Physical",
+    "New": false,
+    "Beta": false
   },
   {
     "Name": "Trailblazer • Harmony",
     "Codename": "mc-harmony",
     "Rarity": "5",
     "Path": "Harmony",
-    "Element": "Imaginary"
+    "Element": "Imaginary",
+    "New": false,
+    "Beta": false
   },
   {
     "Name": "Trailblazer • Preservation",
     "Codename": "mc-preservation",
     "Rarity": "5",
     "Path": "Preservation",
-    "Element": "Fire"
+    "Element": "Fire",
+    "New": false,
+    "Beta": false
   },
   {
     "Name": "Trailblazer • Remembrance",
     "Codename": "mc-remembrance",
     "Rarity": "5",
     "Path": "Remembrance",
-    "Element": "Ice"
+    "Element": "Ice",
+    "New": false,
+    "Beta": false
   },
   {
     "Name": "Tribbie",
     "Codename": "tribbie",
     "Rarity": "5",
     "Path": "Harmony",
-    "Element": "Quantum"
+    "Element": "Quantum",
+    "New": false,
+    "Beta": false
   },
   {
     "Name": "Welt",
     "Codename": "welt",
     "Rarity": "5",
     "Path": "Nihility",
-    "Element": "Imaginary"
+    "Element": "Imaginary",
+    "New": false,
+    "Beta": false
   },
   {
     "Name": "Xueyi",
     "Codename": "xueyi",
     "Rarity": "4",
     "Path": "Destruction",
-    "Element": "Quantum"
+    "Element": "Quantum",
+    "New": false,
+    "Beta": false
   },
   {
     "Name": "Yanqing",
     "Codename": "yanqing",
     "Rarity": "5",
     "Path": "The Hunt",
-    "Element": "Ice"
+    "Element": "Ice",
+    "New": false,
+    "Beta": false
   },
   {
     "Name": "Yukong",
     "Codename": "yukong",
     "Rarity": "4",
     "Path": "Harmony",
-    "Element": "Imaginary"
+    "Element": "Imaginary",
+    "New": false,
+    "Beta": false
   },
   {
     "Name": "Yunli",
     "Codename": "yunli",
     "Rarity": "5",
     "Path": "Destruction",
-    "Element": "Physical"
+    "Element": "Physical",
+    "New": false,
+    "Beta": false
   }
 ]

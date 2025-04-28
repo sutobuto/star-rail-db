@@ -18,7 +18,6 @@ const CharCard = (props) => {
             <span className={styles.name}>{props.name}</span>
             <div className={styles.icons}>
                 <img style={{aspectRatio: '1/1'}}height='34' width='34' src={new URL(`/src/assets/imgs/icons/types/${props.type}.webp`, import.meta.url).href}></img>
-    
                 <img height='28' width='28' src={new URL(`/src/assets/imgs/icons/paths/${props.path.replace(/\s/g, "")}-small.webp`, import.meta.url).href}></img>
             </div>
             <div className={styles.gradient}>
@@ -28,6 +27,8 @@ const CharCard = (props) => {
                     <img className='splash' src={new URL(`/src/assets/imgs/chars/portraits/${props.codename}.webp`, import.meta.url).href}></img>
                 </picture>
             </div>
+            {props.new && <div className={`${styles.tag} ${styles.newtag}`}>NEW</div>}
+            {props.beta && <div className={`${styles.tag} ${styles.betatag}`}>BETA</div>}
         </div>
     </Link>
     </>
