@@ -13,7 +13,7 @@ const SideItem = (props) => {
             <div className={styles.icon}>
                 <img 
                     width='24'
-                    src={`./src/assets/imgs/ui/icons/${props.icon}`} 
+                    src={new URL(`/src/assets/imgs/ui/icons/${props.icon}`, import.meta.url).href} 
                 ></img>
             </div>
             <span className={styles.name} style={{}}>{props.name}</span>

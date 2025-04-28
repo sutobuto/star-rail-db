@@ -11,10 +11,10 @@ function Characters(props) {
   
   return (
     <>
-    <Sidebar isCollapsed={props.isCollapsed} setCollapse={props.setCollapse}/>
+    {/* <Sidebar isCollapsed={props.isCollapsed} setCollapse={props.setCollapse}/> */}
     <div class='main' style={{
-      transition: '0.4s', 
-      width: (props.isCollapsed && !breakpoint) && 'calc(100% - 5rem)'
+      transition: '0.3s', 
+      transform: (!props.isCollapsed && !breakpoint) && 'translateX(12rem)'
       }}>
       <h1>Characters</h1>
       <div className={styles.characters}>

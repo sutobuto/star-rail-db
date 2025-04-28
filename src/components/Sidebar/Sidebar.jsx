@@ -23,7 +23,7 @@ const Sidebar = (props) => {
                 <button onClick={() => setCollapse(!props.isCollapsed)} className={styles.collapse}>
                     <img src=
                     {
-                        !props.isCollapsed ? `/src/assets/imgs/ui/icons/nav_close.svg`: `/src/assets/imgs/ui/icons/nav_open.svg`
+                        !props.isCollapsed ? new URL(`/src/assets/imgs/ui/icons/nav_close.svg`, import.meta.url).href: new URL(`/src/assets/imgs/ui/icons/nav_open.svg`, import.meta.url).href
                     }
                     ></img>
                 </button>
@@ -46,10 +46,14 @@ const Sidebar = (props) => {
             <button onClick={() => setCollapse(!props.isCollapsed)} className={styles.collapse}>
                 <img src=
                 {
-                    !props.isCollapsed ? `/src/assets/imgs/ui/icons/nav_close.svg`: `/src/assets/imgs/ui/icons/nav_open.svg`
+                    !props.isCollapsed ? new URL(`/src/assets/imgs/ui/icons/nav_close.svg`, import.meta.url).href : new URL(`/src/assets/imgs/ui/icons/nav_open.svg`, import.meta.url).href
                 }
                 ></img>
             </button>
+          
+
+
+
           
             <div 
                 className={styles.compact_nav}
@@ -61,7 +65,7 @@ const Sidebar = (props) => {
                     <button onClick={() => setCollapse(!props.isCollapsed)} className={styles.collapse}>
                         <img src=
                         {
-                            !props.isCollapsed ? `/src/assets/imgs/ui/icons/nav_close.svg`: `/src/assets/imgs/ui/icons/nav_open.svg`
+                            !props.isCollapsed ? new URL(`/src/assets/imgs/ui/icons/nav_close.svg`, import.meta.url).href: new URL(`/src/assets/imgs/ui/icons/nav_open.svg`, import.meta.url).href
                         }
                         ></img>
                     </button>
