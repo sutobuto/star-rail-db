@@ -7,7 +7,7 @@ import { useState } from "react";
 function App() {
   const [isCollapsed, setCollapse] = useState(true);
   return (
-    <Router basename="/star-rail-db">
+    <Router>
       <Sidebar isCollapsed={isCollapsed} setCollapse={setCollapse}/>
       <Routes>
         <Route path='/' element={<Home isCollapsed={isCollapsed} setCollapse={setCollapse}/>}/>

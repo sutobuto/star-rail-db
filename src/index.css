@@ -36,8 +36,15 @@ button
 
 .main
 {
+    position: relative;
     margin-left: 5rem;
     padding: 0 5%;
+    transition: transform 0.3s;
+}
+
+.open_nav
+{
+    transform: translateX(12rem);
 }
 
 @media (max-width: 820px)
