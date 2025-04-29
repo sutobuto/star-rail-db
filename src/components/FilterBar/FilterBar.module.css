@@ -1,0 +1,67 @@
+.filters
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 1.3rem;
+    font-weight: 700;
+    justify-content: left;
+    gap: 1rem;
+}
+
+.filters>div
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.filters>.rarity_filters
+{
+    display: flex;
+    align-items: center;
+    font-family: serif;
+    font-size: 1.8rem;
+}
+
+.five
+{
+    color: gold;
+}
+
+.four
+{
+    color: violet;
+}
+
+.rarity_filters>div, .path_filters>picture, .type_filters>picture
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 10px;
+
+    aspect-ratio: 1/1;
+    cursor: pointer;
+}
+
+.rarity_filters>div:hover, .path_filters>picture:hover, .type_filters>picture:hover
+{
+    background: #2f111cFF;
+}
+
+.type_filters>picture>img
+{
+    filter: drop-shadow(0px 0px 1px #000000);
+}
+
+.path_filters, .type_filters, .rarity_filters
+{
+    gap: 1.3rem;
+    background: rgb(70, 25, 42);
+    border-radius: 30px;
+    padding: 0.2rem 1rem;
+}

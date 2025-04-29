@@ -37,6 +37,10 @@ const Sidebar = (props) => {
             </div>
         </div>
 
+
+
+
+
         <div 
             className={styles.compact}
             style={{
@@ -50,11 +54,6 @@ const Sidebar = (props) => {
                 }
                 ></img>
             </button>
-          
-
-
-
-          
             <div 
                 className={styles.compact_nav}
                 style={{

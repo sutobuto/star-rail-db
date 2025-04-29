@@ -1,0 +1,70 @@
+[
+    {
+        "type": "rarity",
+        "name": "five"
+    },
+    {
+        "type": "rarity",
+        "name": "five"
+    },
+    {
+        "type": "paths",
+        "name": "Abundance"
+    },
+    {
+        "type": "paths",
+        "name": "Destruction"
+    },
+    {
+        "type": "paths",
+        "name": "Erudition"
+    },
+    {
+        "type": "paths",
+        "name": "Harmony"
+    },
+    {
+        "type": "paths",
+        "name": "Nihility"
+    },
+    {
+        "type": "paths",
+        "name": "Preservation"
+    },
+    {
+        "type": "paths",
+        "name": "Remembrance"
+    },
+    {
+        "type": "paths",
+        "name": "The Hunt"
+    },
+    {
+        "type": "types",
+        "name": "Fire"
+    },
+    {
+        "type": "types",
+        "name": "Ice"
+    },
+    {
+        "type": "types",
+        "name": "Imaginary"
+    },
+    {
+        "type": "types",
+        "name": "Lightning"
+    },
+    {
+        "type": "types",
+        "name": "Physical"
+    },
+    {
+        "type": "types",
+        "name": "Quantum"
+    },
+    {
+        "type": "types",
+        "name": "Wind"
+    }
+]

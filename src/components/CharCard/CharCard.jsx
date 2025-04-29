@@ -10,6 +10,7 @@ const CharCard = (props) => {
     {
         star = styles.four;
     }
+    console.log(`/src/assets/imgs/icons/paths/${props.path.replace(/\s/g, "")}-small.webp`)
 
     return(
     <>

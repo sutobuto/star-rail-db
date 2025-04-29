@@ -13,14 +13,6 @@
     padding: 0 5%;
 }
 
-@media (max-width: 920px)
-{
-    .main
-    {
-        margin-left: 0;
-    }
-}
-
 @media (max-width: 1130px)
 {
     .characters

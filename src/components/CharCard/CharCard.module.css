@@ -31,8 +31,9 @@
     left: 0;
     width: 100%;
     height: 8rem;
-    background: linear-gradient(to bottom, rgb(0, 0, 0, 0) 22%,rgb(0, 0, 0, 0.4) 100%);
+    background-image: linear-gradient(to bottom, rgb(0, 0, 0, 0) 22%,rgb(0, 0, 0, 0.4) 100%);
     z-index: 1;
+    transition: background-image 0.2s;
 }
 
 .splash_container
@@ -41,6 +42,7 @@
     top: 0;
     left: 0;
     filter: drop-shadow(0px 0px 2px #00000070);
+    transition-behavior: allow-discrete;
     transition-duration: 0.2s;
 }
 
@@ -55,6 +57,12 @@
 {
     transform: scale(1.03);
     transition-property: transform;
+}
+
+.container:hover .gradient
+{
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 22%,rgba(71, 71, 71, 0.5) 100%);
+
 }
 
 span.name
